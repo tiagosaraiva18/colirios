@@ -1,0 +1,77 @@
+:root{
+    --cor-de-fundo: rgb(230, 230, 230);
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    padding: 0 1.5em;
+}
+
+.pergunta{
+    margin: 3em 0;
+}
+
+.pergunta-txt{
+    font-size: 2.5em;
+}
+
+.pergunta-input{
+    margin: 1em 0;
+    font-size: 1.5em;
+    width: 30vw;
+    height: 1.5em;
+    border: 1px black solid;
+    border-radius: 5px;
+    transition: 100ms;
+}
+
+.pergunta-input:focus{
+    border: 1px rgb(95, 164, 255) solid;
+    outline: none;
+    transition: 100ms;
+}
+
+.btn{
+    margin: 0 auto 2em auto;
+    display: block;
+    font-size: 27px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding: 0.7em 1em;
+    background-color: rgb(133, 186, 255);
+    border: none;
+    border-radius: 8px;
+    transition: 100ms;
+}
+
+.btn:active{
+    background-color: rgb(67, 149, 255);
+    transition: 100ms;
+}
+
+.nomes-remedios{
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    margin-bottom: 0.5em;
+}
+
+.listas-horarios{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.lista{
+    font-size: 20px;
+}
+
+.lista-li{
+    display: inherit;
+    width: 100%;
+}
