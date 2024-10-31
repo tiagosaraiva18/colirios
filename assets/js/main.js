@@ -15,15 +15,17 @@ function mostra_horarios(){
 
     let intervalo;
 
-    if(26 <= diaAtual <= 30){
+    if(26 <= diaAtual  && diaAtual <= 30){
         intervalo = 4.00
-    }else if(31 <= diaAtual <= 4){
+    }else if(31 === diaAtual=){
         intervalo = 6.00
-    }else if(5 <= diaAtual <= 9){
+    }else if(1 <= diaAtual && diaAtual <= 4){
+        intervalo = 6.00
+    }else if(5 <= diaAtual && diaAtual <= 9){
         intervalo = 8.00
-    }else if(10 <= diaAtual <= 14){
+    }else if(10 <= diaAtual && diaAtual <= 14){
         intervalo = 12.00
-    }else if(15 <= diaAtual <= 19){
+    }else if(15 <= diaAtual && diaAtual <= 19){
         intervalo = 24.00
     };
 
