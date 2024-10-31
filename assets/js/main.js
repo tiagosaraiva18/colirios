@@ -17,7 +17,7 @@ function mostra_horarios(){
 
     if(26 <= diaAtual  && diaAtual <= 30){
         intervalo = 4.00
-    }else if(31 === diaAtual=){
+    }else if(31 === diaAtual){
         intervalo = 6.00
     }else if(1 <= diaAtual && diaAtual <= 4){
         intervalo = 6.00
